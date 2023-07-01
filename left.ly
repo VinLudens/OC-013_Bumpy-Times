@@ -206,18 +206,18 @@ left = \absolute {
   d4( <fis a>) <fis a>-. |
   d4( <fis a>) <fis a>-. |
   d4( <fis a>) <fis a>-. |
-  cis4( <e a>) <e a>-. |
-  cis4( <e a>) <e a>-. |
-  cis4( <e a>) <e a>-. |
-  cis4( <e a>) <e a>-. |
+  cis4_( <e a>) <e a>-. |
+  cis4_( <e a>) <e a>-. |
+  cis4_( <e a>) <e a>-. |
+  cis4_( <e a>) <e a>-. |
   
   d4( <fis a>) <fis a>-. |
   d4( <fis a>) <fis a>-. |
   d4( <fis a>) <fis a>-. |
   d4( <fis a>) <fis a>-. |
-  cis4( <e a>) <e a>-. |
-  cis4( <e a>) <e a>-. |
-  cis4( <e a>) <e a>-. |
+  cis4_( <e a>) <e a>-. |
+  cis4_( <e a>) <e a>-. |
+  cis4_( <e a>) <e a>-. |
   cis4-- r2 |
   
   b,4 <d fis> <d fis> |
@@ -361,7 +361,7 @@ left = \absolute {
        r8 fis\( g fis b cis' d' e'\) |
        r8 d'\( e' d' a'-\RH g'-\LH fis' g'-\RH\) |
        r8 d'\( e' d' fis' g' fis' e'\) |
-       r8 b_\( cis' b fis' g' fis' e' |
+       r8 b\shape #'((0 . 0) (10 . -1) (0 . -3) (0 . 5))_\( cis' b fis' g' fis' e' |
        d' cis' d' e' fis' \change Staff = "right" \voiceTwo a' g' fis'\) | \change Staff = "left" 
     }
     \new Voice { \voiceTwo 
@@ -385,7 +385,7 @@ left = \absolute {
       r4 q q q |
       r4 fis_\( a cis' | \change Staff = "right"  \voiceTwo
       fis'8 a' cis'' fis'' \ottava 1 a'' cis''' fis''' a''' |
-      \once\oneVoice\ottava 2 <cis'''' fis''''>1\fermata\) | \ottava 0 \change Staff = "left" 
+      \once\override Staff.OttavaBracket.Y-offset = #6 \once\oneVoice\ottava 2 <cis'''' fis''''>1\fermata\) | \ottava 0 \change Staff = "left" 
     }
     \new Voice { \voiceTwo 
       g,1 |

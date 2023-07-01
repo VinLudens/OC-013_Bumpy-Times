@@ -22,16 +22,16 @@ dynamics = {
   s2. | s2. | s2. | s2. | s2. | s2. | s2. | s2. |
   s2.\cresc |
   s2. | s2. | s2. | s2. | s2. | s2. |
-  s2.\!\mf |
-  s2.\mp |
+  s2.\!-\tweak X-offset #-0.3 -\mf |
+  s2.-\tweak X-offset #-0.3 -\mp |
   s2. |
   s2.\f |
   s2. |
-  s2.\mp |
+  s2.-\tweak X-offset #-0.3 -\mp |
   s2. |
   s2.\f |
   s2. |
-  s4\mp s2\crescPoco |
+  s4-\tweak X-offset #-0.3 -\mp s2\tweak whiteout #3 \crescPoco |
   s2. | s2. | s2. |
   s2.\mf |
   s2. | s2. | s2. |
@@ -58,7 +58,7 @@ dynamics = {
   s1. |
   s1 | s1 | s1 | s1 | s1 | s1 | s1 | s1 |
   s2.\< |
-  s2.\mf |
+  s2.-\tweak X-offset #-0.4 -\mf |
   s2. | s2. | s2. | s2. | s2. | s2. | s2. | s2. | s2. | s2. | s2. |
   s2.\cresc |
   s2. | s2. |

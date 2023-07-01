@@ -22,7 +22,7 @@ right = \absolute {
   <e' b'>2)^\( ~ q8 a' |
   <cis' e'>2 ~  q8 d' |
   cis'2.\) |
-  r2 r8 a^\( |
+  r2 r8 a-\( |
   
   b2. |
   fis'2 ~ fis'8 d'( |
@@ -313,17 +313,17 @@ right = \absolute {
   <cis d fis cis'>1\) |
   <b, d fis b>2.\( ~ q8 <d fis b d'> |
   <cis fis a cis'>1\) |
-  <b, d fis b>2.\( ~ q8 <d fis b d'> |
+  <b, d fis b>2.\shape #'(((0 . -1) (0 . 0) (0 . 0.5) (0 . 0)) ())\( ~ q8 <d fis b d'> |
   <a cis' fis' a'>2 <cis fis a cis'> ~ |
   q1\) |
   
-  <b, d fis b>2.\( ~ q8 <d fis b d'> |
+  <b, d fis b>2.\shape #'((0 . -2) (2 . 0) (-1 . 1) (0 . -2))\( ~ q8 <d fis b d'> |
   <cis' fis' a' cis''>8. <a \parenthesize cis' fis' a'> <fis a cis' fis'>8 <d fis a d'>4 <cis fis a cis'>\) |
-  <b, d fis b>4.\( \tuplet 3/2 { b,16_( d fis } \clef "treble" \tuplet 3/2 { b d' fis' } \tuplet 3/2 { b' d'' fis'' } b''4) |
+  <b, d fis b>4.\shape #'((0 . -1) (0 . 1) (0 . 1) (0 . 0))\( \tuplet 3/2 { b,16_( d fis } \clef "treble" \tuplet 3/2 { b d' fis' } \tuplet 3/2 { b' d'' fis'' } b''4) |
   <d' fis' b' d''>8. q <cis' cis''>8 <e' g' b' e''>2\) |
   \clef "bass" <b, d fis b>2.\( \clef "treble" <d' fis' b' d''>4 |
   <cis'' fis'' a'' cis'''>8. <a' \parenthesize cis'' fis'' a''> <fis' a' cis'' fis''>8 <d' fis' a' d''>4 <cis' fis' a' cis''>\) |
-  <b d' fis' b'>4.\( \once\voiceOne <cis'' d'' fis'' b''>4. ~ q4 |
+  <b d' fis' b'>4.\shape #'((0 . -1.3) (2 . 1.2) (0 . 0) (0 . -3.5))\( \once\voiceOne <cis'' d'' fis'' b''>4. ~ q4 |
   
 
 
@@ -487,7 +487,7 @@ right = \absolute {
       q1 |
       <d''' fis'''>1 ~ |
       q1 |
-      <fis''' a'''>4\( <g''' b'''>8 <fis''' a'''>4 <e''' g'''>8 <d''' fis'''>4 ~ |
+      <fis''' a'''>4-\tweak positions #'(5.5 . 4)\( <g''' b'''>8 <fis''' a'''>4 <e''' g'''>8 <d''' fis'''>4 ~ |
       q1\) |
     }
   >> \oneVoice
